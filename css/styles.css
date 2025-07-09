@@ -99,3 +99,40 @@ h1 {
     border: 1px none;
     font-weight: bold;
 }
+
+/* Content Two */
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    align-items: center;
+}
+
+.card-set {
+    margin-top: 0px;
+    display: flex;
+    gap: 36px;
+}
+
+.image {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 5px;
+}
