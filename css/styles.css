@@ -4,11 +4,6 @@ body {
     margin: 0px;
 }
 
-.space {
-    width: 400px;
-    background-color: #1F2937;
-}
-
 .all-content {
     display: flex;
     flex-direction: column;
@@ -21,6 +16,8 @@ body {
     justify-content: space-between;
     height: 50px; 
     background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;  
 }
 
 .header-logo {
@@ -70,6 +67,8 @@ h1 {
     background-color: #1F2937;
     height: 400px;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;  
 }
 
 .left-content {
@@ -113,6 +112,8 @@ h2 {
     background-color: white;
     height: 400px;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;  
 }
 
 .card-set {
@@ -146,8 +147,8 @@ h2 {
     height: 400px;
     box-sizing: border-box;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .quote  {
@@ -161,4 +162,54 @@ h2 {
 .quote-signature {
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Content Four */
+
+.content-four {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;  
+}
+
+.cta {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.cta-text h3 {
+    margin: 0px;
+}
+
+.cta-text p {
+    margin: 0px;
+}
+
+.content-four button {
+    margin-left: 100px;
+    padding: 0px 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    height: 60px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
 }
