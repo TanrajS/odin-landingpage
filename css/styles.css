@@ -5,7 +5,7 @@ body {
 }
 
 .space {
-    width: 250px;
+    width: 400px;
     background-color: #1F2937;
 }
 
@@ -135,4 +135,30 @@ h2 {
 
 .card p {
     margin-top: 5px;
+}
+
+/* Content Three */
+
+.content-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote  {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    max-height: 190px;
+}
+
+.quote-signature {
+    font-weight: bold;
+    align-self: flex-end;
 }
